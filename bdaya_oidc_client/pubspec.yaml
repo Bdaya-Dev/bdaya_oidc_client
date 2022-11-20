@@ -1,0 +1,50 @@
+name: bdaya_oidc_client
+description: A new Flutter plugin project.
+version: 0.0.1
+homepage: https://bdaya-dev.com
+
+environment:
+  sdk: '>=2.18.4 <3.0.0'
+  flutter: ">=2.5.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  bdaya_oidc_client_platform_interface: ^0.0.1
+  bdaya_oidc_client_web: ^0.0.1 
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  plugin_platform_interface: ^2.0.0
+
+flutter:
+  plugin:
+    platforms:
+      # android:
+      #   default_package: bdaya_oidc_client_android
+      # ios:
+      #   default_package: bdaya_oidc_client_ios
+      # linux:
+      #   default_package: bdaya_oidc_client_linux
+      # macos:
+      #   default_package: bdaya_oidc_client_macos
+      web:
+        default_package: bdaya_oidc_client_web
+      # windows:
+      #   default_package: bdaya_oidc_client_windows
+  
+  # plugin:
+  #   platforms:
+  #     android:
+  #       package: com.bdayadev.bdaya_oidc_client
+  #       pluginClass: BdayaOidcClientPlugin
+  #     ios:
+  #       pluginClass: BdayaOidcClientPlugin
+  #     linux:
+  #       pluginClass: BdayaOidcClientPlugin
+  #     macos:
+  #       pluginClass: BdayaOidcClientPlugin
+  #     windows:
+  #       pluginClass: BdayaOidcClientPluginCApi
+ 

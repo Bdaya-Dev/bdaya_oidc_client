@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "bdaya_oidc_client"
+		},
+		{
+			"path": "bdaya_oidc_client_platform_interface"
+		},
+		{
+			"path": "bdaya_oidc_client_web"
+		}
+	],
+	"settings": {}
+}
