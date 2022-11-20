@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'dart:async';
 
 import 'package:flutter/services.dart';
-import 'package:bdaya_oidc_client_web/bdaya_oidc_client_web.dart';
+import 'package:bdaya_oidc_client_android/bdaya_oidc_client_android.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +17,7 @@ class MyApp extends StatefulWidget {
 
 class _MyAppState extends State<MyApp> {
   String _platformVersion = 'Unknown';
-  final _bdayaOidcClientWebPlugin = BdayaOidcClientPlugin();
+  final _bdayaOidcClientAndroidPlugin = BdayaOidcClientPlugin();
 
   @override
   void initState() {
@@ -31,7 +31,7 @@ class _MyAppState extends State<MyApp> {
     // Platform messages may fail, so we use a try/catch PlatformException.
     // We also handle the message potentially returning null.
     try {
-      platformVersion = await _bdayaOidcClientWebPlugin.getPlatformVersion() ?? 'Unknown platform version';
+      platformVersion = await _bdayaOidcClientAndroidPlugin.getPlatformVersion() ?? 'Unknown platform version';
     } on PlatformException {
       platformVersion = 'Failed to get platform version.';
     }

@@ -5,10 +5,13 @@
 // platforms in the `pubspec.yaml` at
 // https://flutter.dev/docs/development/packages-and-plugins/developing-packages#plugin-platforms.
 
-import 'bdaya_oidc_client_platform_interface_platform_interface.dart';
+// import 'bdaya_oidc_client_platform_interface_platform_interface.dart';
 
-class BdayaOidcClientPlatformInterface {
-  Future<String?> getPlatformVersion() {
-    return BdayaOidcClientPlatformInterfacePlatform.instance.getPlatformVersion();
-  }
-}
+// class BdayaOidcClientPlatformInterface {
+//   Future<String?> getPlatformVersion() {
+//     return BdayaOidcClientPlatformInterfacePlatform.instance.getPlatformVersion();
+//   }
+// }
+
+export 'src/types.dart';
+export 'src/bdaya_oidc_client_platform.dart';

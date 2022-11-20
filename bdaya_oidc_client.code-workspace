@@ -8,6 +8,9 @@
 		},
 		{
 			"path": "bdaya_oidc_client_web"
+		},
+		{
+			"path": "bdaya_oidc_client_android"
 		}
 	],
 	"settings": {}
