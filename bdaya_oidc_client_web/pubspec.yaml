@@ -1,5 +1,5 @@
 name: bdaya_oidc_client_web
-description: A new Flutter plugin project.
+description: A web implementation for the bdaya_oidc_client plugin.
 version: 0.0.1-alpha
 homepage: https://github.com/Bdaya-Dev/bdaya_oidc_client
 

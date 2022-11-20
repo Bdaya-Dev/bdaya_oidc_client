@@ -1,5 +1,5 @@
 name: bdaya_oidc_client_android
-description: A new Flutter plugin project.
+description: An android implementation for the bdaya_oidc_client plugin.
 version: 0.0.1-alpha
 homepage: https://github.com/Bdaya-Dev/bdaya_oidc_client
 
@@ -12,9 +12,7 @@ dependencies:
   flutter:
     sdk: flutter
   bdaya_oidc_client_platform_interface: ^0.0.1-alpha
-# dependency_overrides: 
-#   bdaya_oidc_client_platform_interface:
-#     path: ../bdaya_oidc_client_platform_interface
+
 dev_dependencies:
   flutter_test:
     sdk: flutter

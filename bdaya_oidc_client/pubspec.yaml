@@ -1,5 +1,5 @@
 name: bdaya_oidc_client
-description: A new Flutter plugin project.
+description: An Oidc client for flutter
 version: 0.0.1-alpha
 homepage: https://github.com/Bdaya-Dev/bdaya_oidc_client
 
@@ -35,18 +35,3 @@ flutter:
         default_package: bdaya_oidc_client_web
       # windows:
       #   default_package: bdaya_oidc_client_windows
-  
-  # plugin:
-  #   platforms:
-  #     android:
-  #       package: com.bdayadev.bdaya_oidc_client
-  #       pluginClass: BdayaOidcClientPlugin
-  #     ios:
-  #       pluginClass: BdayaOidcClientPlugin
-  #     linux:
-  #       pluginClass: BdayaOidcClientPlugin
-  #     macos:
-  #       pluginClass: BdayaOidcClientPlugin
-  #     windows:
-  #       pluginClass: BdayaOidcClientPluginCApi
- 
